@@ -99,6 +99,8 @@ section {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 1rem 9%;
+  flex-wrap: wrap;
+  margin: 25px;
   
 }
 
@@ -117,6 +119,7 @@ section {
 header .navbar a{
   font-size:205%;
   color:white;
+  
 }
 
 header .navbar a:hover{
@@ -1267,12 +1270,16 @@ header .navbar a:hover{
   }
   .header .icons a,
   .header .icons div {
-    margin: 0 1rem;
+    display: none;
+    margin: 0 9rem;
+    gap: 2rem;
     width: 50%;
+    
   }
   .home .slide .image img {
     height: auto;
     width: 100%;
+    display: none
   }
   .arrivals .box-container .box {
     -webkit-box-orient: vertical;
@@ -1291,6 +1298,8 @@ header .navbar a:hover{
   .shopping-cart .cart-total .btn {
     width: 100%;
   }
+
+
  
 }
 /*# sourceMappingURL=style.css.map */
