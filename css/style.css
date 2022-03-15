@@ -1255,7 +1255,7 @@ header .navbar a:hover{
 
 @media (max-width: 450px) {
   html {
-    font-size: 50%;
+    font-size: 30%;
   }
   .header {
     -webkit-box-pack: center;
@@ -1268,6 +1268,7 @@ header .navbar a:hover{
   .header .icons a,
   .header .icons div {
     margin: 0 1rem;
+    width: 50%;
   }
   .home .slide .image img {
     height: auto;
@@ -1290,5 +1291,6 @@ header .navbar a:hover{
   .shopping-cart .cart-total .btn {
     width: 100%;
   }
+ 
 }
 /*# sourceMappingURL=style.css.map */
